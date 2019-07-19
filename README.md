@@ -5,6 +5,7 @@
 ## Author Information:
 Name: Keza Samantha
 Organization:Moringa School
+Location:University of Rwanda(KIE)
 
 ## Setup/Installation Requirements
 *Used terminal
