@@ -6,7 +6,7 @@ height: 100%;
 }
 .col-md-8 {
     align-items: center;
-    padding:  5px  ;
+    padding:  5 px  ;
 }
 #random-name {
     margin: 2rem 0;
@@ -25,5 +25,7 @@ height: 100%;
 }
 #Birthdate{
     font-style: normal;
-   
-}
+   }
+   p{
+       font-family: Georgia, 'Times New Roman', Times, serif;
+   }
