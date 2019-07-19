@@ -13,6 +13,9 @@ Location:University of Rwanda(KIE)
 *Used Bootstrap-documentation for forms
 *Used Javascript function, control flows and logical operators.
 
+## The Github link to my project:
+https://skeza318j.github.io/birthday-project/
+
 ## Technologies Used
 {I used HTML, CSS and Javascript Languages.I used CSS to style the content in the HTML.}
 ## Contact details
