@@ -12,7 +12,7 @@ height: 100%;
     margin: 2rem 0;
 }
 .card-title{
-    font-weight: bold;
+    font-weight: bolder;
     font-size:40px;
 }
 #gender{
