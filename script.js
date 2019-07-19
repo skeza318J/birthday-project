@@ -11,6 +11,7 @@ dd = d.getDate();
 var gender=document.querySelector('input[name="gender"]:checked').value;
 console.log(yyyy);
 var cc=(yyyy-1)/100+1;
+alert(cc);
 
  var d=( ( (cc/4) -2*cc-1) + ((5*yyyy/4) ) + ((26*(mm+1)/10)) + dd ) % 7; 
 var day=Math.round(d);
