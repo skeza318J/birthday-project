@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="bootstrap.min.css">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js"></script>
+
+  <title>Birthday Project</title>
+</head>
+
+<body>
+  <div class="container"></div>
+  <div class="card mb-3">
+    <div class="row no-gutters" style="max-width: 600px ; max-width: height 600px">
+      <div class="col-md-4">
+        <img src="img/cake.jpg" class="card-img" alt="...">
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <h5 class="card-title">Akhan Name Spotter</h5>
+          <p> This is mainly a project that uses data from your birthdate and gender</p>
+          <p>And then assigns you your Akhan Name according to the Ghanaian culture.</p>
+          <form>
+            <div class="form-group">
+              <label for="Names">Names:</label>
+              <input type="text" id="last" name="Names"/>
+            </div>
+         <div class="form-group">
+           <label for="Birthdate">Birthdate:</label>
+           <input type="date" id="Birthdate" name="Birthdate"/>
+           </div>
+           <div class="form-group">
+             <label for="gender">Gender: </label>
+             <input type="radio" id="gender" name="gender" value="male"/>male
+             <input type="radio" id="gender" name="gender" value="female"/>female
+           </div>
+           <div class="form-group">
+             <label for="Name">Akhan Name Generator:</label>
+
+             <p id="AkhanName"></p>
+           </div>
+           <input type="button" value="submit" onclick="findakhanname()" class="btn btn-primary">
+           </div>
+           </div>
+         </div>
+          </form>
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+  </div>
+</body>
+
+</html>
